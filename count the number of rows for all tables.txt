@@ -1,0 +1,20 @@
+rem -----------------------------------------------------------------------
+rem Filename:   countall.sql
+rem Purpose:    Count the number of rows for ALL tables in the current schema
+rem Date:       30-Apr-2001
+rem Author:     AR, Oracle
+rem -----------------------------------------------------------------------
+
+set termout off echo off feed off trimspool on head off pages 0
+
+spool countall.tmp
+select 'SELECT count(*), '''||table_name||''' from '||table_name||';'
+from   user_tables
+/
+spool off
+
+set termout on
+@@countall.tmp
+
+set head on feed on
+
