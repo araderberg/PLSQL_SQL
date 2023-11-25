@@ -8,7 +8,7 @@
 
 💞️ I’m looking to collaborate on clinical research / data management projects.
 
-📫 How to reach me ww.linkedin.com/in/aäliyah-raderberg
+📫 How to reach me ww.linkedin.com/ or datamanagersasprogrammer at protonmail .ch
 
 /* The codes are provided "as is" by @araderberg. There are no warranties, expressed or implied, 
 as to merchantability or fitness for a particular purpose regarding the materials or code contained herein. 
